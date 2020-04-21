@@ -158,7 +158,6 @@ overflow: hidden;
   justify-content: center;}
 
 #header_wrapper {
-  background-color: green;
   width: 100%; max-width: 900px;
   padding:5px;
   display: flex;
