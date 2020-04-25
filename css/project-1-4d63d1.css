@@ -88,7 +88,7 @@ p {
 }
 
 .button:hover {
-  background-color: #18c7aa;
+  background-color: #ff5e5b;
 }
 
 .field {
@@ -135,7 +135,7 @@ p {
 .success-message {
   padding: 20px;
   border-radius: 2px;
-  background-color: #b59143;
+  background-color: #00cecb;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
   color: #fff;
@@ -157,7 +157,7 @@ p {
 .error-message {
   padding-bottom: 5px;
   border-radius: 2px;
-  background-color: #5c3245;
+  background-color: #00cecb;
 }
 
 .bar {
@@ -211,8 +211,9 @@ p {
 .navbar {
   padding-top: 23px;
   padding-bottom: 23px;
-  background-color: #ffffea;
-  color: #ffffea;
+  background-color: #fac960;
+  opacity: 1;
+  color: #ff5e5b;
 }
 
 .right-nav {
@@ -250,7 +251,7 @@ p {
 .section.hero {
   padding-top: 92px;
   padding-bottom: 92px;
-  background-color: #ff5e5b;
+  background-color: #00cecb;
   text-align: center;
 }
 
@@ -288,11 +289,23 @@ p {
 }
 
 .heading {
-  color: #a42f2e;
+  color: #008381;
 }
 
 .heading-2 {
   color: #007470;
+}
+
+.text-field {
+  position: absolute;
+  left: -5000px;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+}
+
+.paragraph {
+  margin-top: 0px;
 }
 
 @media screen and (max-width: 991px) {
@@ -390,8 +403,13 @@ p {
     padding-right: 14px;
     padding-left: 14px;
   }
+  .right-nav {
+    display: none;
+    padding-top: 0px;
+  }
   .brand {
-    line-height: 36px;
+    padding-bottom: 0px;
+    line-height: 32px;
   }
   .section {
     padding-top: 47px;
